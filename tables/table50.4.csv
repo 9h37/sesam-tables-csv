@@ -1,0 +1,8 @@
+# format=libelle,soins conformes au protocole ALD ?,Taux de remboursement,Code justificatif. d'exo. TM
+# version=29 mars 2011
+100% toutes prestations,non,100,5
+100% si liés ALD,oui,100,4
+Pas d'ALD,non,80,0
+100% Taux FSV,non,80,9
+Taux FSV,non,80,9
+Non exonéré,non,80,0

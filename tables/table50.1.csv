@@ -1,0 +1,18 @@
+# format=libelle,soins conformes au protocole ALD ?,Taux de remboursement,Code justificatif. d'exo. TM
+100% taux régime local frontalier,non,100,5
+Taux régime local frontalier,non,90,0
+Taux FSV,non,80,9
+100% liés ALD,oui,100,4
+100% Taux Alsace-Moselle,non,100,5
+Taux Alsace-Moselle,non,90,0
+Autres cas non exonérés,non,0,0
+Non exonéré,non,0,0
+100% maternité,non,100,5
+100% si service médical SNCF,non,100,6
+Autres cas taux régime général,non,0,0
+Autres cas 75%,non,75,0
+100% toutes prestations,non,100,5
+90% toutes prestations,non,90,0
+80% toutes prestations,non,80,9
+Régime réduit soins non couverts,non,0,0
+Pas d'exonération taux régime général,non,0,0

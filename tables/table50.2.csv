@@ -1,0 +1,10 @@
+# format=libelle,soins conformes au protocole ALD ?,Taux de remboursement,Code justificatif. d'exo. TM,accident
+
+100% si liés ALD,oui,0,4,oui
+100% si liés ALD,oui,100,4,non
+100% Taux Alsace-Moselle,oui,100,4,non
+100% Taux Alsace-Moselle,non,100,5,non
+Taux Alsace-Moselle,non,90,0,non
+Autres cas non exonérés,oui,100,4,non
+Non exonéré,non,0,0,oui
+Accidents non couverts,non,0,0,non

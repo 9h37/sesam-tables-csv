@@ -1,0 +1,74 @@
+# format=Code situation;Règles à appliquer lorsque le code ALD = 0 ou 4 ou 5 ou 6 ou si la réponse est NON à la question "les soins sont-ils conformes au protocole ALD ?;Code Justificatif d’exonération
+# 01XX
+0100;N;pas d’exonération
+0101;100;assuré ou bénéficiaire exonéré
+0102;100;assuré ou bénéficiaire exonéré
+0103;100;assuré ou bénéficiaire exonéré
+0104;80;FSV
+0105;90;pas d’exonération
+0106;100;assuré ou bénéficiaire exonéré
+0107;100;assuré ou bénéficiaire exonéré
+0108;90;pas d’exonération
+0109;100;assuré ou bénéficiaire exonéré
+0110;100;assuré ou bénéficiaire exonéré
+# 02xx
+0200;N;pas d’exonération
+0201;100;assuré ou bénéficiaire exonéré
+0202;100;assuré ou bénéficiaire exonéré
+0203;100;assuré ou bénéficiaire exonéré
+0204;80;FSV
+0205;90;pas d’exonération
+0206;100;assuré ou bénéficiaire exonéré
+0207;100;assuré ou bénéficiaire exonéré
+0225;90;pas d’exonération
+0226;100;assuré ou bénéficiaire exonéré
+0227;100;assuré ou bénéficiaire exonéré
+# 3xxx
+0300;N;pas d’exonération
+0301;N;pas d’exonération
+0302;100;assuré ou bénéficiaire exonéré
+0303;100;assuré ou bénéficiaire exonéré
+0304;80;FSV
+# 1xxx
+1000;N;pas d’exonération
+1001;100;assuré ou bénéficiaire exonéré
+1002;100;assuré ou bénéficiaire exonéré
+1003;100;assuré ou bénéficiaire exonéré
+1004;80;FSV
+1600;N;pas d’exonération
+1601;100;assuré ou bénéficiaire exonéré
+1602;100;assuré ou bénéficiaire exonéré
+1603;100;assuré ou bénéficiaire exonéré
+# 9xxx
+9000;N;pas d’exonération
+9001;100;assuré ou bénéficiaire exonéré
+9002;100;assuré ou bénéficiaire exonéré
+9003;100;assuré ou bénéficiaire exonéré
+9004;80;FSV
+9020;NR;pas d’exonération
+9021;NR;pas d’exonération
+9022;NR;pas d’exonération
+9023;NR;pas d’exonération
+9024;NR;pas d’exonération
+# 04xx  
+# 0400;75;pas d’exonération ; regle specifique ; traite dans t2_bis_taux_rmb_aux_med
+0402;100;pas d’exonération
+0403;R:0100;pas d’exonération
+0404;100;assuré ou bénéficiaire exonéré
+0405;100;assuré ou bénéficiaire exonéré
+0406;R:0102;R:0102
+0407;R:0106;R:0106
+0408;R:0105;R:0105
+0409;R:0104;R:0104
+0410;R:0104;R:0104
+0411;R:0105;R:0105
+0412;R:0103;R:0103
+0413;R:0107;R:0107
+0414;100;pas d’exonération
+0415;100;assuré ou bénéficiaire exonéré
+# 05xx
+0500;R:0100;pas d’exonération
+0501;R:0101;assuré ou bénéficiaire exonéré
+0502;R:0102;assuré ou bénéficiaire exonéré
+0503;R:0103;assuré ou bénéficiaire exonéré
+0504;R:0104;FSV
