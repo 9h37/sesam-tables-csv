@@ -1,5 +1,9 @@
-# format=code;specialite;libelle
-IFA;26;forfaitaire de déplacement
+code;specialite;libelle
+IFD;24;forfaitaire de déplacement
+IK;24;kilométrique de plaine
+IKM;24;kilométrique de montagne
+IKS;24;kilométrique spéciale
+IFD;26;forfaitaire de déplacement
 IFO;26;forfaitaire orthopédique et rhumatologique
 IFR;26;forfaitaire rhumatismale
 IFN;26;forfaitaire neurologique
@@ -8,15 +12,15 @@ IFS;26;forfaitaire de sortie
 IK;26;kilométrique de plaine
 IKM;26;kilométrique de montagne
 IKS;26;kilométrique spéciale
-IFA;28;forfaitaire de déplacement
+IFD;27;forfaitaire de déplacement
+IK;27;kilométrique de plaine
+IKM;27;kilométrique de montagne
+IKS;27;kilométrique spéciale
+IFD;28;forfaitaire de déplacement
 IK;28;kilométrique de plaine
 IKM;28;kilométrique de montagne
 IKS;28;kilométrique spéciale
-IFA;29;forfaitaire de déplacement
+IFD;29;forfaitaire de déplacement
 IK;29;kilométrique de plaine
 IKM;29;kilométrique de montagne
 IKS;29;kilométrique spéciale
-IFA;24;forfaitaire de déplacement
-IK;24;kilométrique de plaine
-IKM;24;kilométrique de montagne
-IKS;24;kilométrique spéciale
