@@ -1,314 +1,373 @@
-##############################################################
-# Nomenclature NGAP - Version de juin 2012
-#
-# format="Désignation de l'acte";"Coefficient";"Lettre clé";"Entente préalable"
+"Désignation de l'élément (titre, chapitre, section, article, acte)";"Coefficient (pour les actes)";"Lettre clé (pour les actes)";"Accord préalable";"Borne gauche";"Borne droite"
+
+
+# La racine de la table, si un jour on en a besoin
+# "Racine";"";"";"N";1;589
+
+
+############################################################
+# ACTES INFIRMIERS - première partie
+
+"Titre II - Actes portant sur les tissus en général";"";"";"N";2;13
+"Chapitre V - Vaisseaux";"";"";"N";3;12
+"Section 2 - Artères et veines";"";"";"N";4;11
+"Article 1er - Ponctions vasculaires et actes de transfusion sanguine";"";"";"N";5;10
+"Ponction d'un tron veineux de la tête et du cou";"300";"AMI";"N";6;7
+"Ponction artérielle percutanée";"500";"AMI";"N";8;9
+
+
+#############################################################
+# ACTES ORTHOPTIE
+
+"Titre III - Actes portant sur la tête";"";"";"N";14;55
+"Chapitre II - Orbite, Oeil";"";"";"N";15;54
+"Article 1 - Orthoptie : bilans et rééducations";"";"";"N";16;41
+"Bilan orthoptique fonctionnel de la basse vision, d'une durée de 60 minutes avec un maximum de deux bilans par an. La réalisation du 2ème bilan doit être justifiée par l’évolution de la pathologie.";"2000";"AMY";"N";17;18
+"Bilan des troubles neuro visuels diagnostiqués, d'une durée de 60 minutes avec un maximum de deux bilans par an.";"2010";"AMY";"N";19;20
+"Bilan orthoptique dans le cadre du traitement des déséquilibres oculomoteurs et des déficits neurosensoriels y afférents";"1000";"AMY";"N";21;22
+"Détermination objective de l'acuité visuelle";"410";"AMY";"N";23;24
+"Déviométrie (test de Lancaster et/ou de Hess Weiss et/ou mesures dans toutes les directions)";"410";"AMY";"N";25;26
+"Analyse fonctionnelle des troubles neurovisuels.";"410";"AMY";"N";27;28
+"Rééducation de la basse vision d’une durée d’au moins 60 mn pour les patients de plus de 16 ans. Cette rééducation est destinée aux patients dont l'acuité visuelle avec la meilleure correction optique est inférieure ou égale à 0.3 et/ou le champ visual est inférieure ou égal à 20°";"1620";"AMY";"O";29;30
+"Rééducation de la basse vision d’une durée d’au moins 40 mn pour les patients de 3 à 16 ans. Cette rééducation est destinée aux patients dont l'acuité visuelle avec la meilleure correction optique est inférieure ou égale à 0.3 et/ou le champ visual est inférieure ou égal à 20°";"1120";"AMY";"O";31;32
+"Rééducation de la basse vision d’une durée d’au moins 30 mn pour les patients de moins de 3 ans. Cette rééducation est destinée aux patients dont l'acuité visuelle avec la meilleure correction optique est inférieure ou égale à 0.3 et/ou le champ visual est inférieure ou égal à 20°";"1020";"AMY";"O";33;34
+"Traitement de l'amblyopie par série de vingt séances d'au moins 20 minutes, par séance.";"540";"AMY";"O";35;36
+"Traitement du strabisme avec maximum de vingt séances (sauf accord du service médical), d'au moins 20 minutes par séance.";"540";"AMY";"O";37;38
+"Traitement des hétérophories et des déséquilibres binoculaires avec un maximum de douze séances (sauf accord du service médical), d'au moins 20 minutes, par séance.";"400";"AMY";"O";39;40
+
+"Article 2 - Orthoptie : actes avec enregistrements";"";"";"N";42;53
+"Périmétrie quantitative, manuelle ou automatisée, accompagnée ou remplacée par une campimétrie.";"950";"AMY";"N";43;44
+"Périmétrie (champ visuel) ou campimétrie réalisée avec mesure de seuil";"1030";"AMY";"N";45;46
+"Courbe d'adaptation à l'obscurité.";"900";"AMY";"N";47;48
+"Exploration du sens chromatique.";"600";"AMY";"N";49;50
+"Exploration du sens chromatique au test de Farnsworth 100 HUE, assisté par ordinateur, avec graphique et score.";"900";"AMY";"N";51;52
+
 
 ##############################################################
 # ACTES ORTHOPHONIE
-#
-# TITRE IV - ACTES PORTANT SUR LE COU
-## Chapitre II - Larynx
-## Article 2 - Rééducation de la voix, du langage et de la parole
-"Bilan de la déglutition et des fonctions oro-myo-fonctionnelles";"1600";"AMO";"N"
-"Bilan de la phonation";"2400";"AMO";"N"
-"Bilan du langage oral et/ou bilan d'aptitudes à l'acquisition du langage écrit";"2400";"AMO";"N"
-"Bilan du langage écrit";"2400";"AMO";"N"
-"Bilan de la dyscalculie et des troubles du raisonnement logico-mathématique";"2400";"AMO";"N"
-"Bilan des troubles d'origine neurologique";"3000";"AMO";"N"
-"Bilan du bégaiement";"3000";"AMO";"N"
-"Bilan du langage dans le cadre des handicaps moteurs, sensoriels ou mentaux (inclus surdité, IMC, autisme, maladies génétiques)";"3000";"AMO";"N"
-"Rééducation des troubles d'articulation isolés chez des personnes ne présentant pas d'affection neurologique, par séance";"510";"AMO";"O"
-"Rééducation des troubles de l'articulation liés à des déficiences perceptives, par séance";"800";"AMO";"O"
-"Rééducation des troubles de l'articulation liés à des déficiences d'origine organique, par séance";"800";"AMO";"O"
-"Rééducation de la déglutition atypique, par séance";"800";"AMO";"O"
-"Rééducation vélo-tubo-tympanique, par séance";"800";"AMO";"O"
-"Rééducation des troubles de la voix d'origine organique ou fonctionnelle, par séance";"1140";"AMO";"O"
-"Rééducation du mouvement paradoxal d'adduction des cordes vocales à l'inspiration, par séance";"1130";"AMO";"O"
-"Rééducation des dysarthries neurologiques, par séance";"1100";"AMO";"O"
-"Rééducation des dysphagies chez l'adulte et chez l'enfant, par séance";"1100";"AMO";"O"
-"Rééducation des anomalies des fonctions orofaciales entraînant des troubles de l'articulation et de la parole, par séance";"1030";"AMO";"O"
-"Education à l'acquisition et à l'utilisation de la voix oro-oesophagienne et/ou trachéo-oesophagienne, par séance";"1120";"AMO";"O"
-"Education à l'utilisation des prothèses phonatoires quel qu'en soit le mécanisme par séance";"1110";"AMO";"O"
-"Rééducation des pathologies du langage écrit : lecture et/ou orthographe, par séance";"1010";"AMO";"O"
-"Rééducation des troubles du calcul et du raisonnement logico-mathématique, par séance";"1020";"AMO";"O"
-"Rééducation des troubles de l'écriture par séance";"1000";"AMO";"O"
-"Rééducation des retards de parole des retards du langage oral, par séance";"1210";"AMO";"O"
-"Rééducation du bégaiement, par séance";"1220";"AMO";"O"
-"Education précoce au langage dans les handicaps de l'enfant de type sensoriel, moteur, mental, par séance";"1360";"AMO";"O"
-"Education ou rééducation du langage dans les handicaps de l'enfant de type sensoriel, moteur, mental, par séance";"1350";"AMO";"O"
-"Education ou rééducation du langage dans le cadre de l'infirmité motrice d'origine cérébrale, par séance";"1380";"AMO";"O"
-"Education ou rééducation du langage dans le cadre de l'autisme, par séance";"1380";"AMO";"O"
-"Education ou rééducation du langage dans le cadre des maladies génétiques, par séance";"1380";"AMO";"O"
-"Réadaptation à la communication dans les surdités acquises appareillées et/ou éducation à la pratique de la lecture labiale, par séance";"1200";"AMO";"O"
-"Rééducation des dysphasies, par séance d'une durée minimale de 30 minutes";"1400";"AMO";"O"
-"Rééducation du langage dans les aphasies, par séance";"1560";"AMO";"O"
-"Rééducation des troubles du langage non aphasiques dans le cadre d'autres atteintes neurologiques, par séance";"1520";"AMO";"O"
-"Maintien et adaptation des fonctions de communication chez les personnes atteintes de maladies neurodégénératives, par séance";"1500";"AMO";"O"
-"Démutisation dans les surdités du premier âge, appareillées ou non, y compris en cas d'implantation cochléaire, par séance";"1540";"AMO";"O"
-"Rééducation ou conservation du langage oral et de la parole dans les surdités appareillées ou non, y compris en cas d'implantation cochléaire, par séance";"1510";"AMO";"O"
-"Rééducation des troubles de la voix d'origine organique ou fonctionnelle, par séance";"500";"AMO";"O"
-"Education à l'acquisition et à l'utilisation de la voix oro-oesophagienne et/ou trachéo-oesophagienne, par séance";"500";"AMO";"O"
-"Rééducation des pathologies du langage écrit : lecture et/ou orthographe, par séance";"500";"AMO";"O"
-"Rééducation des troubles du calcul et du raisonnement logico-mathématique, par séance";"500";"AMO";"O"
-"Rééducation des retards de parole, des retards du langage oral, par séance";"500";"AMO";"O"
-"Rééducation du bégaiement, par séance";"500";"AMO";"O"
-"Education à la pratique de la lecture labiale, par séance";"500";"AMO";"O"
-"Rééducation des dysphasies, par séance";"500";"AMO";"O"
-"Rééducation du langage dans les aphasies, par séance";"500";"AMO";"O"
-"Rééducation des troubles du langage non aphasiques dans le cadre d'autres atteintes neurologiques, par séance";"500";"AMO";"O"
-"Maintien et adaptation des fonctions de communication chez les personnes atteintes de maladies neurodégénératives, par séance";"500";"AMO";"O"
-"Démutisation dans les surdités du premier âge, appareillées ou non, y compris en cas d'implantation cochléaire, par séance";"500";"AMO";"O"
-"Rééducation ou conservation du langage oral et de la parole dans les surdités appareillées ou non, y compris en cas d'implantation cochléaire, par séance";"500";"AMO";"O"
+
+"Titre IV - Actes portant sur le cou";"";"";"N";56;167
+"Chapitre II - Larynx";"";"";"N";57;166
+"Article 2 - Rééducation de la voix, du langage et de la parole";"";"";"N";58;165
+"Bilan avec compte rendu écrit obligatoire";"";"";"N";59;76
+"Bilan de la déglutition et des fonctions oro-myo-fonctionnelles";"1600";"AMO";"N";60;61
+"Bilan de la phonation";"2400";"AMO";"N";62;63
+"Bilan du langage oral et/ou bilan d'aptitudes à l'acquisition du langage écrit";"2400";"AMO";"N";64;65
+"Bilan du langage écrit";"2400";"AMO";"N";66;67
+"Bilan de la dyscalculie et des troubles du raisonnement logico-mathématique";"2400";"AMO";"N";68;69
+"Bilan des troubles d'origine neurologique";"3000";"AMO";"N";70;71
+"Bilan du bégaiement";"3000";"AMO";"N";72;73
+"Bilan du langage dans le cadre des handicaps moteurs, sensoriels ou mentaux (inclus surdité, IMC, autisme, maladies génétiques)";"3000";"AMO";"N";74;75
+
+"Rééducation individuelle";"";"";"N";77;136
+"Rééducation des troubles d'articulation isolés chez des personnes ne présentant pas d'affection neurologique, par séance";"510";"AMO";"O";78;79
+"Rééducation des troubles de l'articulation liés à des déficiences perceptives, par séance";"800";"AMO";"O";80;81
+"Rééducation des troubles de l'articulation liés à des déficiences d'origine organique, par séance";"800";"AMO";"O";82;83
+"Rééducation de la déglutition atypique, par séance";"800";"AMO";"O";84;85
+"Rééducation vélo-tubo-tympanique, par séance";"800";"AMO";"O";86;87
+"Rééducation des troubles de la voix d'origine organique ou fonctionnelle, par séance";"1140";"AMO";"O";88;89
+"Rééducation du mouvement paradoxal d'adduction des cordes vocales à l'inspiration, par séance";"1130";"AMO";"O";90;91
+"Rééducation des dysarthries neurologiques, par séance";"1100";"AMO";"O";92;93
+"Rééducation des dysphagies chez l'adulte et chez l'enfant, par séance";"1100";"AMO";"O";94;95
+"Rééducation des anomalies des fonctions orofaciales entraînant des troubles de l'articulation et de la parole, par séance";"1030";"AMO";"O";96;97
+"Education à l'acquisition et à l'utilisation de la voix oro-oesophagienne et/ou trachéo-oesophagienne, par séance";"1120";"AMO";"O";98;99
+"Education à l'utilisation des prothèses phonatoires quel qu'en soit le mécanisme par séance";"1110";"AMO";"O";100;101
+"Rééducation des pathologies du langage écrit : lecture et/ou orthographe, par séance";"1010";"AMO";"O";102;103
+"Rééducation des troubles du calcul et du raisonnement logico-mathématique, par séance";"1020";"AMO";"O";104;105
+"Rééducation des troubles de l'écriture par séance";"1000";"AMO";"O";106;107
+"Rééducation des retards de parole des retards du langage oral, par séance";"1210";"AMO";"O";108;109
+"Rééducation du bégaiement, par séance";"1220";"AMO";"O";110;111
+"Education précoce au langage dans les handicaps de l'enfant de type sensoriel, moteur, mental, par séance";"1360";"AMO";"O";112;113
+"Education ou rééducation du langage dans les handicaps de l'enfant de type sensoriel, moteur, mental, par séance";"1350";"AMO";"O";114;115
+"Education ou rééducation du langage dans le cadre de l'infirmité motrice d'origine cérébrale, par séance";"1380";"AMO";"O";116;117
+"Education ou rééducation du langage dans le cadre de l'autisme, par séance";"1380";"AMO";"O";118;119
+"Education ou rééducation du langage dans le cadre des maladies génétiques, par séance";"1380";"AMO";"O";120;121
+"Réadaptation à la communication dans les surdités acquises appareillées et/ou éducation à la pratique de la lecture labiale, par séance";"1200";"AMO";"O";122;123
+"Rééducation des dysphasies, par séance d'une durée minimale de 30 minutes";"1400";"AMO";"O";124;125
+"Rééducation du langage dans les aphasies, par séance";"1560";"AMO";"O";126;127
+"Rééducation des troubles du langage non aphasiques dans le cadre d'autres atteintes neurologiques, par séance";"1520";"AMO";"O";128;129
+"Maintien et adaptation des fonctions de communication chez les personnes atteintes de maladies neurodégénératives, par séance";"1500";"AMO";"O";130;131
+"Démutisation dans les surdités du premier âge, appareillées ou non, y compris en cas d'implantation cochléaire, par séance";"1540";"AMO";"O";132;133
+"Rééducation ou conservation du langage oral et de la parole dans les surdités appareillées ou non, y compris en cas d'implantation cochléaire, par séance";"1510";"AMO";"O";134;135
+
+"Rééducation nécessitant des techniques de groupe";"";"";"N";137;164
+"Tech. Groupe : rééducation des troubles de la voix d'origine organique ou fonctionnelle, par séance";"500";"AMO";"O";138;139
+"Tech. Groupe : éducation à l'acquisition et à l'utilisation de la voix oro-oesophagienne et/ou trachéo-oesophagienne, par séance";"500";"AMO";"O";140;141
+"Tech. Groupe : rééducation des pathologies du langage écrit : lecture et/ou orthographe, par séance";"500";"AMO";"O";142;143
+"Tech. Groupe : rééducation des troubles du calcul et du raisonnement logico-mathématique, par séance";"500";"AMO";"O";144;145
+"Tech. Groupe : rééducation des retards de parole, des retards du langage oral, par séance";"500";"AMO";"O";146;147
+"Tech. Groupe : rééducation du bégaiement, par séance";"500";"AMO";"O";148;149
+"Tech. Groupe : éducation à la pratique de la lecture labiale, par séance";"500";"AMO";"O";150;151
+"Tech. Groupe : rééducation des dysphasies, par séance";"500";"AMO";"O";152;153
+"Tech. Groupe : rééducation du langage dans les aphasies, par séance";"500";"AMO";"O";154;155
+"Tech. Groupe : rééducation des troubles du langage non aphasiques dans le cadre d'autres atteintes neurologiques, par séance";"500";"AMO";"O";156;157
+"Tech. Groupe : maintien et adaptation des fonctions de communication chez les personnes atteintes de maladies neurodégénératives, par séance";"500";"AMO";"O";158;159
+"Tech. Groupe : démutisation dans les surdités du premier âge, appareillées ou non, y compris en cas d'implantation cochléaire, par séance";"500";"AMO";"O";160;161
+"Tech. Groupe : rééducation ou conservation du langage oral et de la parole dans les surdités appareillées ou non, y compris en cas d'implantation cochléaire, par séance";"500";"AMO";"O";162;163
+
+
+##############################################################
+# ACTES DE REEDUCATION ET READAPTATION FONCTIONNELLES
+# (KINE ET PEDICURE-PODOLOGUE)
+
+"Titre XII - Actes portant sur le membre inférieur";"";"";"N";168;197
+"Chapitre II - Pied";"";"";"N";169;196
+"Article 3  - Actes de pédicurie";"";"";"N";170;191
+"Rééducation d'un pied (à l'exclusion de l'articulation tibio-tarsienne), en relation avec une intervention chirurgicale sur l'avant-pied, par séance d'une durée de 30 minutes";"400";"AMP,AMK";"O";171;172
+"Rééducation des 2 pieds (à l'exclusion des articulations tibio-tarsiennes), en relation avec une intervention chirurgicale sur l'avant-pied, par séance d'une durée de 30 minutes";"600";"AMP,AMK";"O";173;174
+"Massage d'un pied (à l'exclusion de l'articulation tibio-tarsienne), en relation avec une intervention chirurgicale sur les avant-pieds";"200";"AMP,AMK";"O";175;176
+"Massage des 2 pieds (à l'exclusion des articulations tibio-tarsiennes), en relation avec une intervention chirurgicale sur les avant-pieds";"300";"AMP,AMK";"O";177;178
+"Pansement petit";"75";"AMP";"N";179;180
+"Pansement moyen ou pansements multiples sur un pied";"125";"AMP";"N";181;182
+"Pansement moyen ou pansements multiples sur deux pieds";"200";"AMP";"N";183;184
+"Pansement d'hygroma consécutif à l'intervention du médecin";"150";"AMP";"N";185;186
+"Traitement pédicural de cas pathologiques du domaine du pédicure (hygromas, onyxis, etc.) non justiciable d'un acte opératoire, suivant prescription médicale, pansement compris (première séance)";"200";"AMP";"N";187;188
+"Traitement pédicural de cas pathologiques du domaine du pédicure (hygromas, onyxis, etc.) non justiciable d'un acte opératoire, suivant prescription médicale, pansement compris";"150";"AMP";"N";189;190
+
+"Article 4 - Actes de prévention de pédicurie-podologie";"";"";"N";192;195
+"Séance de prévention des lésions des pieds à risque de grade 2 ou de grade 3 chez le patient diabétique aucabinet du pédicure-podologue, d'une durée de l'ordre de 45 minutes ne pouvant être inférieure à 30 minutes, par séance";"100";"POD";"N";193;194
 
 
 ##############################################################
 # ACTES DE REEDUCATION ET READAPTATION FONCTIONNELLES (KINE)
-#
-# TITRE XII - ACTES PORTANT SUR LE MEMBRE INFÉRIEUR
-## Chapitre II - Pied
-## Article 3  - Actes de pédicurie
-"Rééducation d'un pied (à l'exclusion de l'articulation tibio-tarsienne), en relation avec une intervention chirurgicale sur l'avant-pied, par séance d'une durée de 30 minutes";"400";"AMP,AMK";"O"
-"Rééducation des 2 pieds (à l'exclusion des articulations tibio-tarsiennes), en relation avec une intervention chirurgicale sur l'avant-pied, par séance d'une durée de 30 minutes";"600";"AMP,AMK";"O"
-"Massage d'un pied (à l'exclusion de l'articulation tibio-tarsienne), en relation avec une intervention chirurgicale sur les avant-pieds";"200";"AMP,AMK";"O"
-"Massage des 2 pieds (à l'exclusion des articulations tibio-tarsiennes), en relation avec une intervention chirurgicale sur les avant-pieds";"300";"AMP,AMK";"O"
-"Pansement petit";"75";"AMP";"N"
-"Pansement moyen ou pansements multiples sur un pied";"125";"AMP";"N"
-"Pansement moyen ou pansements multiples sur deux pieds";"200";"AMP";"N"
-"Pansement d'hygroma consécutif à l'intervention du médecin";"150";"AMP";"N"
-"Traitement pédicural de cas pathologiques du domaine du pédicure (hygromas, onyxis, etc.) non justiciable d'un acte opératoire, suivant prescription médicale, pansement compris (première séance)";"200";"AMP";"N"
-"Traitement pédicural de cas pathologiques du domaine du pédicure (hygromas, onyxis, etc.) non justiciable d'un acte opératoire, suivant prescription médicale, pansement compris";"150";"AMP";"N"
 
-# TITRE XIV - ACTES DE REEDUCATION ET DE READAPTATION FONCTIONNELLES
-## Chapitre I - Actes de diagnostic
-## Section 1 - Actes isolés
-"Bilan ostéoarticulaire simple des conséquences motrices des affections orthopédiques ou rhumatologiques inflammatoires ou non : pour un membre";"500";"AMK,AMC";"N"
-"Bilan ostéoarticulaire simple des conséquences motrices des affections orthopédiques ou rhumatologiques inflammatoires ou non : pour deux membres ou un membre et le tronc";"800";"AMK,AMC";"N"
-"Bilan ostéoarticulaire simple des conséquences motrices des affections orthopédiques ou rhumatologiques inflammatoires ou non : pour tout le corps";"1000";"AMK,AMC";"N"
-"Bilan musculaire (avec tests) des conséquences motrices des affections neurologiques : pour un membre";"500";"AMK,AMC";"N"
-"Bilan musculaire (avec tests) des conséquences motrices des affections neurologiques : pour deux membres";"1000";"AMK,AMC";"N"
-"Bilan musculaire (avec tests) des conséquences motrices des affections neurologiques : pour tout le corps";"2000";"AMK,AMC";"N"
+"Titre XIV - Actes de rééducation et de réadaptation fonctionnelles";"";"";"N";198;324
+"Chapitre I - Actes de diagnostic";"";"";"N";199;219
+"Section 1 - Actes isolés";"";"";"N";200;213
+"Bilan ostéoarticulaire simple des conséquences motrices des affections orthopédiques ou rhumatologiques inflammatoires ou non : pour un membre";"500";"AMK,AMC";"N";201;202
+"Bilan ostéoarticulaire simple des conséquences motrices des affections orthopédiques ou rhumatologiques inflammatoires ou non : pour deux membres ou un membre et le tronc";"800";"AMK,AMC";"N";203;204
+"Bilan ostéoarticulaire simple des conséquences motrices des affections orthopédiques ou rhumatologiques inflammatoires ou non : pour tout le corps";"1000";"AMK,AMC";"N";205;206
+"Bilan musculaire (avec tests) des conséquences motrices des affections neurologiques : pour un membre";"500";"AMK,AMC";"N";207;208
+"Bilan musculaire (avec tests) des conséquences motrices des affections neurologiques : pour deux membres";"1000";"AMK,AMC";"N";209;210
+"Bilan musculaire (avec tests) des conséquences motrices des affections neurologiques : pour tout le corps";"2000";"AMK,AMC";"N";211;212
 
-## Section 2 - Bilan-diagnostic kinésithérapique effectué par le masseur-kinésithérapeute
-"Bilan-diagnostic kinésithérapique pour un nombre de séances compris entre 10 et 20";"810";"AMS,AMK,AMC";"N"
-"Bilan-diagnostic kinésithérapique pour un nombre de séances compris entre 10 et 50,";"1010";"AMK,AMC";"N"
+"Section 2 - Bilan-diagnostic kinésithérapique effectué par le masseur-kinésithérapeute";"";"";"N";214;219
+"Bilan-diagnostic kinésithérapique pour un nombre de séances compris entre 10 et 20";"810";"AMS,AMK,AMC";"N";215;216
+"Bilan-diagnostic kinésithérapique pour un nombre de séances compris entre 10 et 50,";"1010";"AMK,AMC";"N";217;218
 
-## Chapitre II - Traitements individuels de rééducation et de réadaptation fonctionnelles
-## Article 1er - Rééducation des conséquences des affections orthopédiques et rhumatologiques (actes affectés de la lettre clé AMS)
-"Rééducation d'un membre et de sa racine, quelles que soient la nature et la localisation de la pathologie traitée";"750";"AMS";"N"
-"Rééducation de tout ou partie de plusieurs membres, ou du tronc et d'un ou plusieurs membres";"950";"AMS";"N"
-"Rééducation et réadaptation, après amputation y compris l'adaptation à l'appareillage : amputation de tout ou partie d'un membre";"750";"AMS";"N"
-"Rééducation et réadaptation, après amputation y compris l'adaptation à l'appareillage : amputation de tout ou partie de plusieurs membres";"950";"AMS";"N"
-"Rééducation du rachis et/ou des ceintures quelles que soient la nature et la localisation de la pathologie traitée";"750";"AMS";"N"
-"Rééducation de l'enfant ou de l'adolescent pour déviation latérale ou sagittale du rachis";"750";"AMS";"N"
+"Chapitre II - Traitements individuels de rééducation et de réadaptation fonctionnelles";"";"";"N";220;317
+"Article 1er - Rééducation des conséquences des affections orthopédiques et rhumatologiques (actes affectés de la lettre clé AMS)";"";"";"N";221;234
+"Rééducation d'un membre et de sa racine, quelles que soient la nature et la localisation de la pathologie traitée";"750";"AMS";"N";222;223
+"Rééducation de tout ou partie de plusieurs membres, ou du tronc et d'un ou plusieurs membres";"950";"AMS";"N";224;225
+"Rééducation et réadaptation, après amputation y compris l'adaptation à l'appareillage : amputation de tout ou partie d'un membre";"750";"AMS";"N";226;227
+"Rééducation et réadaptation, après amputation y compris l'adaptation à l'appareillage : amputation de tout ou partie de plusieurs membres";"950";"AMS";"N";228;229
+"Rééducation du rachis et/ou des ceintures quelles que soient la nature et la localisation de la pathologie traitée";"750";"AMS";"N";230;231
+"Rééducation de l'enfant ou de l'adolescent pour déviation latérale ou sagittale du rachis";"750";"AMS";"N";232;233
 
-## Article 2 - Rééducation des conséquences des affections rhumatismales inflammatoires
-"Rééducation des malades atteints de rhumatisme inflammatoire (pelvispondylite, polyarthrite rhumatoïde...) atteinte localisée à un membre ou le tronc";"700";"AMK,AMC";"N"
-"Rééducation des malades atteints de rhumatisme inflammatoire (pelvispondylite, polyarthrite rhumatoïde...) atteinte de plusieurs membres, ou du tronc et d'un ou plusieurs membres";"900";"AMK,AMC";"N"
+"Article 2 - Rééducation des conséquences des affections rhumatismales inflammatoires";"";"";"N";235;240
+"Rééducation des malades atteints de rhumatisme inflammatoire (pelvispondylite, polyarthrite rhumatoïde...) atteinte localisée à un membre ou le tronc";"700";"AMK,AMC";"N";236;237
+"Rééducation des malades atteints de rhumatisme inflammatoire (pelvispondylite, polyarthrite rhumatoïde...) atteinte de plusieurs membres, ou du tronc et d'un ou plusieurs membres";"900";"AMK,AMC";"N";238;239
 
-## Article 3 - Rééducation de la paroi abdominale
-"Rééducation abdominale pré-opératoire ou post-opératoire";"700";"AMK,AMC";"N"
-"Rééducation abdominale du post-partum";"700";"AMK,AMC";"N"
+"Article 3 - Rééducation de la paroi abdominale";"";"";"N";241;246
+"Rééducation abdominale pré-opératoire ou post-opératoire";"700";"AMK,AMC";"N";242;243
+"Rééducation abdominale du post-partum";"700";"AMK,AMC";"N";244;245
 
-## Article 4 - Rééducation des conséquences d'affections neurologiques et musculaires
-"Rééducation des atteintes périphériques radiculaires ou tronculaires, atteintes localisées à un membre ou à la face";"800";"AMK,AMC";"N"
-"Rééducation des atteintes périphériques radiculaires ou tronculaires, atteintes intéressant plusieurs membres";"1000";"AMK,AMC";"N"
-"Rééducation de l'hémiplégie";"900";"AMK,AMC";"N"
-"Rééducation de la paraplégie et de la tétraplégie";"1100";"AMK,AMC";"N"
-"Rééducation des affections neurologiques stables ou évolutives pouvant regrouper des déficiences diverses (commande musculaire, tonus, sensibilité, équilibre, coordination...) en dehors de l'hémiplégie et de la paraplégie,  localisation des déficiences à un membre et sa racine";"800";"AMK,AMC";"N"
-"Rééducation des affections neurologiques stables ou évolutives pouvant regrouper des déficiences diverses (commande musculaire, tonus, sensibilité, équilibre, coordination...) en dehors de l'hémiplégie et de la paraplégie,  localisation des déficiences à 2 membres ou plus, ou d'un membre et à tout ou partie du tronc et de la face";"1000";"AMK,AMC";"N"
-"Rééducation des malades atteints de myopathie";"1100";"AMK,AMC";"N"
-"Rééducation des malades atteints d'encéphalopathie infantile";"1100";"AMK,AMC";"N"
+"Article 4 - Rééducation des conséquences d'affections neurologiques et musculaires";"";"";"N";247;264
+"Rééducation des atteintes périphériques radiculaires ou tronculaires, atteintes localisées à un membre ou à la face";"800";"AMK,AMC";"N";248;249
+"Rééducation des atteintes périphériques radiculaires ou tronculaires, atteintes intéressant plusieurs membres";"1000";"AMK,AMC";"N";250;251
+"Rééducation de l'hémiplégie";"900";"AMK,AMC";"N";252;253
+"Rééducation de la paraplégie et de la tétraplégie";"1100";"AMK,AMC";"N";254;255
+"Rééducation des affections neurologiques stables ou évolutives pouvant regrouper des déficiences diverses (commande musculaire, tonus, sensibilité, équilibre, coordination...) en dehors de l'hémiplégie et de la paraplégie,  localisation des déficiences à un membre et sa racine";"800";"AMK,AMC";"N";256;257
+"Rééducation des affections neurologiques stables ou évolutives pouvant regrouper des déficiences diverses (commande musculaire, tonus, sensibilité, équilibre, coordination...) en dehors de l'hémiplégie et de la paraplégie,  localisation des déficiences à 2 membres ou plus, ou d'un membre et à tout ou partie du tronc et de la face";"1000";"AMK,AMC";"N";258;259
+"Rééducation des malades atteints de myopathie";"1100";"AMK,AMC";"N";260;261
+"Rééducation des malades atteints d'encéphalopathie infantile";"1100";"AMK,AMC";"N";262;263
 
-## Article 5 - Rééducation des conséquences des affections respiratoires
-"Rééducation des maladies respiratoires avec désencombrement urgent (bronchiolite du nourrisson, poussée aiguë au cours d'une pathologie respiratoire chronique).";"800";"AMK,AMC";"N"
-"Rééducation des maladies respiratoires, obstructives, restrictives ou mixtes (en dehors des situations d'urgence)";"800";"AMK,AMC";"N"
-"Rééducation respiratoire pré-opératoire ou post-opératoire";"800";"AMK,AMC";"N"
-"Prise en charge kinésithérapique respiratoire du patient atteint de mucoviscidose";"1000";"AMK,AMC";"N"
+"Article 5 - Rééducation des conséquences des affections respiratoires";"";"";"N";265;274
+"Rééducation des maladies respiratoires avec désencombrement urgent (bronchiolite du nourrisson, poussée aiguë au cours d'une pathologie respiratoire chronique).";"800";"AMK,AMC";"N";266;267
+"Rééducation des maladies respiratoires, obstructives, restrictives ou mixtes (en dehors des situations d'urgence)";"800";"AMK,AMC";"N";268;269
+"Rééducation respiratoire pré-opératoire ou post-opératoire";"800";"AMK,AMC";"N";270;271
+"Prise en charge kinésithérapique respiratoire du patient atteint de mucoviscidose";"1000";"AMK,AMC";"N";272;273
 
-## Article 6 - Rééducation dans le cadre des pathologies maxillo-faciales et oto-rhino-laryngologiques
-"Rééducation maxillo-faciale en dehors de la paralysie faciale";"700";"AMK,AMC";"N"
-"Rééducation vestibulaire et des troubles de l'équilibre";"700";"AMK,AMC";"N"
-"Rééducation des troubles de la déglutition isolés";"700";"AMK,AMC";"N"
+"Article 6 - Rééducation dans le cadre des pathologies maxillo-faciales et oto-rhino-laryngologiques";"";"";"N";275;282
+"Rééducation maxillo-faciale en dehors de la paralysie faciale";"700";"AMK,AMC";"N";276;277
+"Rééducation vestibulaire et des troubles de l'équilibre";"700";"AMK,AMC";"N";278;279
+"Rééducation des troubles de la déglutition isolés";"700";"AMK,AMC";"N";280;281
 
-## Article 7 - Rééducation des conséquences des affections vasculaires
-"Rééducation pour artériopathie des membres inférieurs (claudication, troubles trophiques)";"700";"AMK,AMC";"N"
-"Rééducation pour insuffisance veineuse des membres inférieurs avec retentissement articulaire et/ou troubles trophiques";"700";"AMK,AMC";"N"
-"Rééducation pour lymphoedèmes vrais (aprés chirurgie et/ou radiothérapie, lymphoedèmes congénitaux) par drainage manuel, pour un membre ou pour le cou et la face";"700";"AMK,AMC";"N"
-"Rééducation pour lymphoedèmes vrais (aprés chirurgie et/ou radiothérapie, lymphoedèmes congénitaux) par drainage manuel, pour deux membres";"900";"AMK,AMC";"N"
-"Supplément pour bandage multicouche, un membre";"100";"AMK,AMC";"N"
-"Supplément pour bandage multicouche, deux membres";"200";"AMK,AMC";"N"
+"Article 7 - Rééducation des conséquences des affections vasculaires";"";"";"N";283;296
+"Rééducation pour artériopathie des membres inférieurs (claudication, troubles trophiques)";"700";"AMK,AMC";"N";284;285
+"Rééducation pour insuffisance veineuse des membres inférieurs avec retentissement articulaire et/ou troubles trophiques";"700";"AMK,AMC";"N";286;287
+"Rééducation pour lymphoedèmes vrais (aprés chirurgie et/ou radiothérapie, lymphoedèmes congénitaux) par drainage manuel, pour un membre ou pour le cou et la face";"700";"AMK,AMC";"N";288;289
+"Rééducation pour lymphoedèmes vrais (aprés chirurgie et/ou radiothérapie, lymphoedèmes congénitaux) par drainage manuel, pour deux membres";"900";"AMK,AMC";"N";290;291
+"Supplément pour bandage multicouche, un membre";"100";"AMK,AMC";"N";292;293
+"Supplément pour bandage multicouche, deux membres";"200";"AMK,AMC";"N";294;295
 
-## Article 8 - Rééducation des conséquences des affections périnéosphinctériennes
-"Rééducation périnéale active sous contrôle manuel et/ou électrostimulation et/ou biofeedback";"800";"AMK,AMC";"N"
+"Article 8 - Rééducation des conséquences des affections périnéosphinctériennes";"";"";"N";297;300
+"Rééducation périnéale active sous contrôle manuel et/ou électrostimulation et/ou biofeedback";"800";"AMK,AMC";"N";298;299
 
-## Article 9 - Rééducation de la déambulation du sujet âgé
-"Rééducation analytique et globale, musculo-articulaire des deux membres inférieurs, de la posture, de l'équilibre et de la coordination chez le sujet âge";"800";"AMK,AMC";"N"
-"Rééducation de la déambulation dans le cadre du maintien de l'autonomie de la personne âgée (séance d'une durée de l'ordre de vingt minutes)";"600";"AMK,AMC";"N"
+"Article 9 - Rééducation de la déambulation du sujet âgé";"";"";"N";301;306
+"Rééducation analytique et globale, musculo-articulaire des deux membres inférieurs, de la posture, de l'équilibre et de la coordination chez le sujet âge";"800";"AMK,AMC";"N";302;303
+"Rééducation de la déambulation dans le cadre du maintien de l'autonomie de la personne âgée (séance d'une durée de l'ordre de vingt minutes)";"600";"AMK,AMC";"N";304;305
 
-## Article 10 - Rééducation des patients atteints de brûlures
-"Rééducation d'un patient atteint de brûlures localisées à un membre ou à un segment de membre";"700";"AMK,AMC";"N"
-"Rééducation d'un patient atteint de brûlures étendues à plusieurs membres et/ou au tronc";"900";"AMK,AMC";"N"
+"Article 10 - Rééducation des patients atteints de brûlures";"";"";"N";307;312
+"Rééducation d'un patient atteint de brûlures localisées à un membre ou à un segment de membre";"700";"AMK,AMC";"N";308;309
+"Rééducation d'un patient atteint de brûlures étendues à plusieurs membres et/ou au tronc";"900";"AMK,AMC";"N";310;311
 
-## Article 11 -Soins palliatifs
-"Prise en charge, dans le cadre des soins palliatifs, comportant les actes nécessaires en fonction des situations cliniques (mobilisation, massage, drainage bronchique...), cotation journalière forfaitaire quel que soit le nombre d'interventions";"1200";"AMK,AMC";"N"
+"Article 11 -Soins palliatifs";"";"";"N";313;316
+"Prise en charge, dans le cadre des soins palliatifs, comportant les actes nécessaires en fonction des situations cliniques (mobilisation, massage, drainage bronchique...), cotation journalière forfaitaire quel que soit le nombre d'interventions";"1200";"AMK,AMC";"N";314;315
 
-## Chapitre IV - Divers
-"Supplément kinébalnéothérapie en bassin";"120";"AMS,AMK,AMC";"N"
-"Supplément kinébalnéothérapie en piscine";"220";"AMS,AMK,AMC";"N"
+"Chapitre IV - Divers";"";"";"N";318;323
+"Supplément kinébalnéothérapie en bassin";"120";"AMS,AMK,AMC";"N";319;320
+"Supplément kinébalnéothérapie en piscine";"220";"AMS,AMK,AMC";"N";321;322
 
-# TITRE XV - ACTES DIVERS
-## Chaptitre V - Actes utilisant les agents physiques
-## Article 2 - Électrothérapie
-"Courants galvaniques, faradiques ou excitomoteurs, ultrasons, diathermie, ondes courtes en application de surface par séance d'une durée de 20 minutes comportant la mise en place d'électrodes fixes de surface au niveau de la peau ";"300";"AMK,AMC,AMS";"O"
-"Courants galvaniques, faradiques ou excitomoteurs, ultrasons, diathermie, ondes courtes en application de surface par séance d'une durée de 20 minutes comportant la mise en place d'électrodes fixes de surface au niveau de la peau en application intracavitaire";"400";"AMK,AMC,AMS";"O"
-"Courants excitomoteurs par électrode mobile ou courants progressifs";"500";"AMK,AMC,AMS";"O"
+"Titre XV - Actes divers";"";"";"N";325;336
+"Chaptitre V - Actes utilisant les agents physiques";"";"";"N";326;335
+"Article 2 - Électrothérapie";"";"";"N";327;334
+"Courants galvaniques, faradiques ou excitomoteurs, ultrasons, diathermie, ondes courtes en application de surface par séance d'une durée de 20 minutes comportant la mise en place d'électrodes fixes de surface au niveau de la peau ";"300";"AMK,AMC,AMS";"O";328;329
+"Courants galvaniques, faradiques ou excitomoteurs, ultrasons, diathermie, ondes courtes en application de surface par séance d'une durée de 20 minutes comportant la mise en place d'électrodes fixes de surface au niveau de la peau en application intracavitaire";"400";"AMK,AMC,AMS";"O";330;331
+"Courants excitomoteurs par électrode mobile ou courants progressifs";"500";"AMK,AMC,AMS";"O";332;333
 
 
 ##############################################################
-# ACTES INFIRMIERS
-#
-# TITRE II - ACTES PORTANT SUR LES TISSUS EN GENERAL
-## Chapitre V - Vaisseaux
-## Section 2 - Artères et veines
-## Article 1er - Ponctions vasculaires et actes de transfusion sanguine
-"Ponction d'un tron veineux de la tête et du cou";"300";"AMI";"N"
-"Ponction artérielle percutanée";"500";"AMI";"N"
+# ACTES INFIRMIERS - deuxième partie
 
-# TITRE XVI - SOINS INFIRMIERS
-## Chapitre II - Soins de pratique courante
-## Article 1er - Prélèvements et injections
-"Prélèvement par ponction veineuse directe";"150";"AMI,SFI";"N"
-"Saignée";"500";"AMI,SFI";"N"
-"Prélèvement aseptique cutané ou de sécrétions muqueuses, prélèvement de selles ou d'urine pour examens cytologiques, bactériologiques, mycologiques, virologiques ou parasitologiques";"100";"AMI,SFI";"N"
-"Injection intraveineuse directe isolée";"200";"AMI,SFI";"N"
-"Injection intraveineuse directe en série";"150";"AMI,SFI";"N"
-"Injection intraveineuse directe chez un enfant de moins de 5 ans";"200";"AMI,SFI";"N"
-"Injection intramusculaire";"100";"AMI,SFI";"N"
-"Supplément pour vaccination antigrippale hors-primo injection dans le cadre de la campagne de vaccination anti-grippale organisée par l’assurance maladie";"100";"AMI";"N"
-"Injection d'un sérum d'origine humaine ou animale selon la méthode de Besredka, y compris la surveillance";"500";"AMI,SFI";"N"
-"Injection sous-cutanée";"100";"AMI,SFI";"N"
-"Supplément pour vaccination antigrippale hors-primo injection dans le cadre de la campagne de vaccination anti-grippale organisée par l’assurance maladie";"100";"AMI";"N"
-"Injection intradermique";"100";"AMI,SFI";"N"
-"Injection d'un ou plusieurs allergènes, poursuivant un traitement d'hyposensibilisation spécifique, selon le protocole écrit, y compris la surveillance, la tenue du dossier de soins, la transmission des informations au médecin prescripteur";"300";"AMI,SFI";"N"
-"Injection d'un implant sous-cutané";"250";"AMI,SFI";"N"
-"Injection en goutte à goutte par voie rectale";"200";"AMI,SFI";"N"
+"Titre XVI - Soins infirmiers";"";"";"N";337;574
+"Chapitre I - Soins de pratique courante";"";"";"N";338;495
+"Article 1er - Prélèvements et injections";"";"";"N";339;370
+"Prélèvement par ponction veineuse directe";"150";"AMI,SFI";"N";340;341
+"Saignée";"500";"AMI,SFI";"N";342;343
+"Prélèvement aseptique cutané ou de sécrétions muqueuses, prélèvement de selles ou d'urine pour examens cytologiques, bactériologiques, mycologiques, virologiques ou parasitologiques";"100";"AMI,SFI";"N";344;345
+"Injection intraveineuse directe isolée";"200";"AMI,SFI";"N";346;347
+"Injection intraveineuse directe en série";"150";"AMI,SFI";"N";348;349
+"Injection intraveineuse directe chez un enfant de moins de 5 ans";"200";"AMI,SFI";"N";350;351
+"Injection intramusculaire";"100";"AMI,SFI";"N";352;353
+"Supplément pour vaccination antigrippale hors-primo injection dans le cadre de la campagne de vaccination anti-grippale organisée par l’assurance maladie";"100";"AMI";"N";354;355
+"Injection d'un sérum d'origine humaine ou animale selon la méthode de Besredka, y compris la surveillance";"500";"AMI,SFI";"N";356;357
+"Injection sous-cutanée";"100";"AMI,SFI";"N";358;359
+"Supplément pour vaccination antigrippale hors-primo injection dans le cadre de la campagne de vaccination anti-grippale organisée par l’assurance maladie";"100";"AMI";"N";360;361
+"Injection intradermique";"100";"AMI,SFI";"N";362;363
+"Injection d'un ou plusieurs allergènes, poursuivant un traitement d'hyposensibilisation spécifique, selon le protocole écrit, y compris la surveillance, la tenue du dossier de soins, la transmission des informations au médecin prescripteur";"300";"AMI,SFI";"N";364;365
+"Injection d'un implant sous-cutané";"250";"AMI,SFI";"N";366;367
+"Injection en goutte à goutte par voie rectale";"200";"AMI,SFI";"N";368;369
 
-## Article 2 - Pansements courants
-"Pansement de stomie";"200";"AMI,SFI";"N"
-"Pansement de trachéotomie, y compris l'aspiration et l'éventuel changement de canule ou sonde";"225";"AMI,SFI";"N"
-"Ablation de fils ou d'agrafes, dix ou moins, y compris le pansement éventuel";"200";"AMI,SFI";"N"
-"Ablation de fils ou d'agrafes, plus de dix, y compris le pansement éventuel";"400";"AMI,SFI";"N"
-"Autre pansement";"200";"AMI,SFI";"N"
+"Article 2 - Pansements courants";"";"";"N";371;382
+"Pansement de stomie";"200";"AMI,SFI";"N";372;373
+"Pansement de trachéotomie, y compris l'aspiration et l'éventuel changement de canule ou sonde";"225";"AMI,SFI";"N";374;375
+"Ablation de fils ou d'agrafes, dix ou moins, y compris le pansement éventuel";"200";"AMI,SFI";"N";376;377
+"Ablation de fils ou d'agrafes, plus de dix, y compris le pansement éventuel";"400";"AMI,SFI";"N";378;379
+"Autre pansement";"200";"AMI,SFI";"N";380;381
 
-## Article 3 - Pansements lourds et complexes
-"Pansements de brûlure étendue ou de plaie chimique ou thermique étendue, sur une surface supérieures à 5 % de la surface corporelle";"400";"AMI,SFI";"N"
-"Pansement d'ulcère étendu ou de greffe cutanée, sur une surface supérieure à 60 cm2";"400";"AMI,SFI";"N"
-"Pansement d'amputation nécessitant détersion, épluchage et régularisation";"400";"AMI,SFI";"N"
-"Pansement de fistule digestive";"400";"AMI,SFI";"N"
-"Pansement pour pertes de substance traumatique ou néoplasique, avec lésions profondes, sous aponévrotiques, musculaires, tendineuses ou osseuses";"400";"AMI,SFI";"N"
-"Pansement chirurgical nécessitant un méchage ou une irrigation";"400";"AMI,SFI";"N"
-"Pansement d'escarre profonde et étendue atteignant les muscles ou les tendons";"400";"AMI,SFI";"N"
-"Pansement chirurgical avec matériel d'ostéosynthèse extériorise";"400";"AMI,SFI";"N"
+"Article 3 - Pansements lourds et complexes";"";"";"N";383;400
+"Pansements de brûlure étendue ou de plaie chimique ou thermique étendue, sur une surface supérieures à 5 % de la surface corporelle";"400";"AMI,SFI";"N";384;385
+"Pansement d'ulcère étendu ou de greffe cutanée, sur une surface supérieure à 60 cm2";"400";"AMI,SFI";"N";386;387
+"Pansement d'amputation nécessitant détersion, épluchage et régularisation";"400";"AMI,SFI";"N";388;389
+"Pansement de fistule digestive";"400";"AMI,SFI";"N";390;391
+"Pansement pour pertes de substance traumatique ou néoplasique, avec lésions profondes, sous aponévrotiques, musculaires, tendineuses ou osseuses";"400";"AMI,SFI";"N";392;393
+"Pansement chirurgical nécessitant un méchage ou une irrigation";"400";"AMI,SFI";"N";394;395
+"Pansement d'escarre profonde et étendue atteignant les muscles ou les tendons";"400";"AMI,SFI";"N";396;397
+"Pansement chirurgical avec matériel d'ostéosynthèse extériorise";"400";"AMI,SFI";"N";398;399
 
-## Article 4 - Pose de sonde et alimentation
-"Pose de sonde gastrique";"300";"AMI,SFI";"N"
-"Alimentation entérale par gavage ou en déclive ou par nutri-pompe, y compris la surveillance, par séance";"300";"AMI,SFI";"N"
-"Alimentation entérale par voie jéjunale avec sondage de la stomie, y compris le pansement et la surveillance, par séance";"400";"AMI,SFI";"N"
+"Article 4 - Pose de sonde et alimentation";"";"";"N";401;408
+"Pose de sonde gastrique";"300";"AMI,SFI";"N";402;403
+"Alimentation entérale par gavage ou en déclive ou par nutri-pompe, y compris la surveillance, par séance";"300";"AMI,SFI";"N";404;405
+"Alimentation entérale par voie jéjunale avec sondage de la stomie, y compris le pansement et la surveillance, par séance";"400";"AMI,SFI";"N";406;407
 
-## Article 5 - Soins portant sur l'appareil respiratoire
-"Séance d'aérosol";"150";"AMI,SFI";"N"
-"Lavage d'un sinus";"200";"AMI,SFI";"N"
+"Article 5 - Soins portant sur l'appareil respiratoire";"";"";"N";409;414
+"Séance d'aérosol";"150";"AMI,SFI";"N";410;411
+"Lavage d'un sinus";"200";"AMI,SFI";"N";412;413
 
-## Article 6 - Soins portant sur l'appareil génito-urinaire
-"Injection vaginale";"125";"AMI,SFI";"N"
-"Soins gynécologiques au décours immédiat d'un traitement par curiethérapie";"150";"AMI,SFI";"N"
-"Cathérisme urétral chez la femme";"300";"AMI,SFI";"N"
-"Cathérisme urétral chez l'homme";"400";"AMI,SFI";"N"
-"Changement de sonde urinaire à demeure chez la femme";"300";"AMI,SFI";"N"
-"Changement de sonde urinaire à demeure chez l'homme";"400";"AMI,SFI";"N"
-"Éducation à l'autosondage comprenant le sondage éventuel, avec un maximum de dix séances";"350";"AMI,SFI";"N"
-"Réadaptation de vessie neurologique comprenant le sondage éventuel";"450";"AMI,SFI";"N"
-"Instillation et/ou lavage vésical (sonde en place)";"125";"AMI,SFI";"N"
-"Pose isolée d'un étui pénien, une fois par vingt-quatre heures";"100";"AMI,SFI";"N"
+"Article 6 - Soins portant sur l'appareil génito-urinaire";"";"";"N";415;436
+"Injection vaginale";"125";"AMI,SFI";"N";416;417
+"Soins gynécologiques au décours immédiat d'un traitement par curiethérapie";"150";"AMI,SFI";"N";418;419
+"Cathérisme urétral chez la femme";"300";"AMI,SFI";"N";420;421
+"Cathérisme urétral chez l'homme";"400";"AMI,SFI";"N";422;423
+"Changement de sonde urinaire à demeure chez la femme";"300";"AMI,SFI";"N";424;425
+"Changement de sonde urinaire à demeure chez l'homme";"400";"AMI,SFI";"N";426;427
+"Éducation à l'autosondage comprenant le sondage éventuel, avec un maximum de dix séances";"350";"AMI,SFI";"N";428;429
+"Réadaptation de vessie neurologique comprenant le sondage éventuel";"450";"AMI,SFI";"N";430;431
+"Instillation et/ou lavage vésical (sonde en place)";"125";"AMI,SFI";"N";432;433
+"Pose isolée d'un étui pénien, une fois par vingt-quatre heures";"100";"AMI,SFI";"N";434;435
 
-## Article 7 - Soins portant sur l'appareil digestif
-"Soins de bouche avec application de produits médicamenteux au décours immédiat d'une radiothérapie";"125";"AMI,SFI";"N"
-"Lavement évacuateur ou médicamenteux";"300";"AMI,SFI";"N"
-"Extraction de fécalome ou extraction manuelle des selles";"300";"AMI,SFI";"N"
+"Article 7 - Soins portant sur l'appareil digestif";"";"";"N";437;444
+"Soins de bouche avec application de produits médicamenteux au décours immédiat d'une radiothérapie";"125";"AMI,SFI";"N";438;439
+"Lavement évacuateur ou médicamenteux";"300";"AMI,SFI";"N";440;441
+"Extraction de fécalome ou extraction manuelle des selles";"300";"AMI,SFI";"N";442;443
 
-## Article 8 - Test et soins portant sur l'enveloppe cutanée
-"Pulvérisation de produit(s) médicamenteux";"125";"AMI,SFI";"N"
-"Réalisation de test tuberculinique";"50";"AMI,SFI";"N"
-"Lecture d'un timbre tuberculinique et transmission d'informations au médecin prescripteur";"100";"AMI,SFI";"N"
+"Article 8 - Test et soins portant sur l'enveloppe cutanée";"";"";"N";445;452
+"Pulvérisation de produit(s) médicamenteux";"125";"AMI,SFI";"N";446;447
+"Réalisation de test tuberculinique";"50";"AMI,SFI";"N";448;449
+"Lecture d'un timbre tuberculinique et transmission d'informations au médecin prescripteur";"100";"AMI,SFI";"N";450;451
 
-## Article 9 - Perfusions
-"Préparation, remplissage, programmation de matériel pour perfusion à domicile : infuseur, pompe portable, pousse-seringue";"300";"AMI,SFI";"N"
-"Pose de perfusion par voie sous-cutanée ou rectale";"200";"AMI,SFI";"N"
-"Pose ou changement d'un dispositif intraveineux";"300";"AMI,SFI";"N"
-"Changement de flacon(s) ou branchement sur dispositif en place";"200";"AMI,SFI";"N"
-"Arrêt et retrait du dispositif de la perfusion, pansement éventuel, tenue du dossier de soins et transmission des informations au médecin prescripteur";"100";"AMI,SFI";"N"
-"Organisation de la surveillance de la perfusion (ne peuvent être notés, à l'occasion de cet acte, des frais de déplacement ou des majorations de nuit ou de dimanche) de moins de huit heures";"200";"AMI,SFI";"N"
-"Organisation de la surveillance de la perfusion (ne peuvent être notés, à l'occasion de cet acte, des frais de déplacement ou des majorations de nuit ou de dimanche) de plus de huit heures";"400";"AMI,SFI";"N"
+"Article 9 - Perfusions";"";"";"N";453;468
+"Perfusion : préparation, remplissage, programmation de matériel pour perfusion à domicile : infuseur, pompe portable, pousse-seringue";"300";"AMI,SFI";"N";454;455
+"Pose de perfusion par voie sous-cutanée ou rectale";"200";"AMI,SFI";"N";456;457
+"Pose ou changement d'un dispositif intraveineux";"300";"AMI,SFI";"N";458;459
+"Changement de flacon(s) ou branchement sur dispositif en place";"200";"AMI,SFI";"N";460;461
+"Arrêt et retrait du dispositif de la perfusion, pansement éventuel, tenue du dossier de soins et transmission des informations au médecin prescripteur";"100";"AMI,SFI";"N";462;463
+"Organisation de la surveillance de la perfusion (ne peuvent être notés, à l'occasion de cet acte, des frais de déplacement ou des majorations de nuit ou de dimanche) de moins de huit heures";"200";"AMI,SFI";"N";464;465
+"Organisation de la surveillance de la perfusion (ne peuvent être notés, à l'occasion de cet acte, des frais de déplacement ou des majorations de nuit ou de dimanche) de plus de huit heures";"400";"AMI,SFI";"N";466;467
 
-## Article 10 - Surveillance et observation d'un patient à domicile
-"Administration et surveillance d'une thérapeutique orale au domicile des patients présentant des troubles psychiatriques avec établissement d'une fiche de surveillance, par passage";"100";"AMI,SFI";"N"
-"Administration et surveillance d'une thérapeutique orale au domicile des patients présentant des troubles psychiatriques avec établissement d'une fiche de surveillance, au delà du premier mois, par passage";"100";"AMI,SFI";"O"
-"Surveillance et observation d'un patient lors de la mise en oeuvre d'un traitement ou lors de la modification de celui-ci, sauf pour les patients diabétiques insulino-dépendants, avec établissement d'une fiche de surveillance, avec un maximum de quinze jours, par jour";"100";"AMI,SFI";"N"
+"Article 10 - Surveillance et observation d'un patient à domicile";"";"";"N";469;476
+"Administration et surveillance d'une thérapeutique orale au domicile des patients présentant des troubles psychiatriques avec établissement d'une fiche de surveillance, par passage";"100";"AMI,SFI";"N";470;471
+"Administration et surveillance d'une thérapeutique orale au domicile des patients présentant des troubles psychiatriques avec établissement d'une fiche de surveillance, au delà du premier mois, par passage";"100";"AMI,SFI";"O";472;473
+"Surveillance et observation d'un patient lors de la mise en oeuvre d'un traitement ou lors de la modification de celui-ci, sauf pour les patients diabétiques insulino-dépendants, avec établissement d'une fiche de surveillance, avec un maximum de quinze jours, par jour";"100";"AMI,SFI";"N";474;475
 
-## Article 11 - Soins infirmiers à domicile pour un patient, quel que soit son âge, en situation de dépendance temporaire ou permanente
-" Élaboration de la démarche de soins infirmiers à domicile nécessaires à la réalisation de séances de soins infirmiers ou de séances de surveillance clinique infirmière et de prévention d'un patient dépendant ou à la mise en oeuvre d'un programme d'aide personnalisée en vue de favoriser son maintien, son insertion ou sa réinsertion dans son cadre de vie familial et social. Cas d'une première démarche";"150";"DI";"N"
-" Élaboration de la démarche de soins infirmiers à domicile nécessaires à la réalisation de séances de soins infirmiers ou de séances de surveillance clinique infirmière et de prévention d'un patient dépendant ou à la mise en oeuvre d'un programme d'aide personnalisée en vue de favoriser son maintien, son insertion ou sa réinsertion dans son cadre de vie familial et social. Cas d'une démarche existance";"100";"DI";"N"
-"Séance de soins infirmiers, par séance d'une demi-heure, à raison de 4 au maximum par 24 heures. La séance de soins infirmiers comprend l'ensemble des actions de soins liées aux fonctions d'entretien et de continuité de la vie, visant à protéger, maintenir, restaurer ou compenser les capacités d'autonomie de la personne. La cotation forfaitaire par séance inclut l'ensemble des actes relevant de la compétence de l'infirmier réalisés au cours de la séance, la tenue du dossier de soins et de la fiche de liaison éventuelle. Par dérogation à cette disposition et à l'article 11 B des dispositions générales, la séance de soins infirmiers peut se cumuler avec la cotation d'une perfusion, telle que définie au chapitre 1er ou au chapitre II du présent titre, ou d'un pansement lourd et complexe nécessitant des conditions d'asepsie rigoureuse La cotation de séances de soins infirmiers est subordonnée à l'élaboration préalable de la démarche de soins infirmiers. Ces séances ne peuvent être prescrites pour une durée supérieure à trois mois. Leur renouvellement nécessite la prescription et l'élaboration d'une nouvelle démarche de soins infirmiers.";"300";"AIS";"O"
-"Mise en oeuvre d'un programme d'aide personnalisée en vue d'insérer ou de maintenir le patient dans son cadre de vie, pendant lequel l'infirmier l'aide à accomplir les actes quotidiens de la vie, éduque son entourage ou organise le relais avec les travailleurs sociaux, par séance d'une demi-heure, à raison de 4 au maximum par 24 heures. La cotation des séances d'aide dans le cadre de la mise en oeuvre d'un programme d'aide personnalisée est subordonnée à l'élaboration préalable d'une démarche de soins infirmiers. Ces séances ne peuvent être prescrites pour une durée supérieure à trois mois la première année de mise en oeuvre de l'arrêté, à deux mois la deuxième année de sa mise en oeuvre, et à quinze jours, renouvelable une fois, à partir de la troisième année de sa mise en oeuvre.";"310";"AIS";"O"
-"Séance hebdomadaire de surveillance clinique infirmière et de prévention, par séance d'une demi-heure";"400";"AIS";"O"
+"Article 11 - Soins infirmiers à domicile pour un patient, quel que soit son âge, en situation de dépendance temporaire ou permanente";"";"";"N";477;488
+" Élaboration de la démarche de soins infirmiers à domicile nécessaires à la réalisation de séances de soins infirmiers ou de séances de surveillance clinique infirmière et de prévention d'un patient dépendant ou à la mise en oeuvre d'un programme d'aide personnalisée en vue de favoriser son maintien, son insertion ou sa réinsertion dans son cadre de vie familial et social. Cas d'une première démarche";"150";"DI";"N";478;479
+" Élaboration de la démarche de soins infirmiers à domicile nécessaires à la réalisation de séances de soins infirmiers ou de séances de surveillance clinique infirmière et de prévention d'un patient dépendant ou à la mise en oeuvre d'un programme d'aide personnalisée en vue de favoriser son maintien, son insertion ou sa réinsertion dans son cadre de vie familial et social. Cas d'une démarche existance";"100";"DI";"N";480;481
+"Séance de soins infirmiers, par séance d'une demi-heure, à raison de 4 au maximum par 24 heures. La séance de soins infirmiers comprend l'ensemble des actions de soins liées aux fonctions d'entretien et de continuité de la vie, visant à protéger, maintenir, restaurer ou compenser les capacités d'autonomie de la personne. La cotation forfaitaire par séance inclut l'ensemble des actes relevant de la compétence de l'infirmier réalisés au cours de la séance, la tenue du dossier de soins et de la fiche de liaison éventuelle. Par dérogation à cette disposition et à l'article 11 B des dispositions générales, la séance de soins infirmiers peut se cumuler avec la cotation d'une perfusion, telle que définie au chapitre 1er ou au chapitre II du présent titre, ou d'un pansement lourd et complexe nécessitant des conditions d'asepsie rigoureuse La cotation de séances de soins infirmiers est subordonnée à l'élaboration préalable de la démarche de soins infirmiers. Ces séances ne peuvent être prescrites pour une durée supérieure à trois mois. Leur renouvellement nécessite la prescription et l'élaboration d'une nouvelle démarche de soins infirmiers.";"300";"AIS";"O";482;483
+"Mise en oeuvre d'un programme d'aide personnalisée en vue d'insérer ou de maintenir le patient dans son cadre de vie, pendant lequel l'infirmier l'aide à accomplir les actes quotidiens de la vie, éduque son entourage ou organise le relais avec les travailleurs sociaux, par séance d'une demi-heure, à raison de 4 au maximum par 24 heures. La cotation des séances d'aide dans le cadre de la mise en oeuvre d'un programme d'aide personnalisée est subordonnée à l'élaboration préalable d'une démarche de soins infirmiers. Ces séances ne peuvent être prescrites pour une durée supérieure à trois mois la première année de mise en oeuvre de l'arrêté, à deux mois la deuxième année de sa mise en oeuvre, et à quinze jours, renouvelable une fois, à partir de la troisième année de sa mise en oeuvre.";"310";"AIS";"O";484;485
+"Séance hebdomadaire de surveillance clinique infirmière et de prévention, par séance d'une demi-heure";"400";"AIS";"O";486;487
 
-## Article 12 - Garde à domicile
-"Garde d'un malade à domicile, nécessitant une surveillance constante et exclusive et des soins infirmiers répétés, y compris les soins d'hygiène, effectuée selon un protocole écrit. Par période de 6h entre 8h et 20h.";"1300";"AIS";"O"
-"Garde d'un malade à domicile, nécessitant une surveillance constante et exclusive et des soins infirmiers répétés, y compris les soins d'hygiène, effectuée selon un protocole écrit. Par période de 6h entre 20h et 8h.";"1600";"AIS";"O"
+"Article 12 - Garde à domicile";"";"";"N";489;494
+"Garde d'un malade à domicile, nécessitant une surveillance constante et exclusive et des soins infirmiers répétés, y compris les soins d'hygiène, effectuée selon un protocole écrit. Par période de 6h entre 8h et 20h.";"1300";"AIS";"O";490;491
+"Garde d'un malade à domicile, nécessitant une surveillance constante et exclusive et des soins infirmiers répétés, y compris les soins d'hygiène, effectuée selon un protocole écrit. Par période de 6h entre 20h et 8h.";"1600";"AIS";"O";492;493
+
+"Chapitre II - Soins spécialisés";"";"";"N";496;573
+"Article 1 - Soins d'entretien des cathéters";"";"";"N";497;504
+"Séance d'entretien de cathéter(s) en dehors des perfusions, y compris le pansement : cathéter péritonéal: soins au sérum physiologique et pansement";"400";"AMI,SFI";"N";498;499
+"Séance d'entretien de cathéter(s) en dehors des perfusions, y compris le pansement : cathéter veineux central ou site implantable: héparinisation et pansement";"400";"AMI,SFI";"N";500;501
+"Pansement de cathéter(s) veineux central ou péritonéal sans héparinisation";"300";"AMI,SFI";"N";502;503
+
+"Article 2 - Injections et prélèvements";"";"";"N";505;514
+"Injection d'analgésique(s), à l'exclusion de la première par l'intermédiaire d'un cathéter intrathécal ou péridural";"500";"AMI,SFI";"O";506;507
+"Injection intraveineuse par l'intermédiaire d'un site implanté, y compris l'héparinisation et le pansement";"400";"AMI,SFI";"N";508;509
+"Injection intraveineuse par l'intermédiaire d'un cathéter central, y compris l'héparinisation et le pansement";"300";"AMI,SFI";"N";510;511
+"Prélèvement sanguin sur cathéter veineux central extériorisé ou chambre implantable";"100";"AMI,SFI";"N";512;513
+
+"Article 3 - Perfusion intraveineuse par l'intermédiaire d'un cathéter veineux central ou d'un site implante";"";"";"N";515;528
+"Perfusion intraveineuse : préparation, remplissage, programmation de matériel pour perfusion à domicile, infuseur, pompe portable, pousse-seringue";"300";"AMI,SFI";"N";516;517
+"Branchement de la perfusion et mise en route du dispositif";"400";"AMI,SFI";"N";518;519
+"Changement de flacon(s)";"200";"AMI,SFI";"N";520;521
+"Arrêt et retrait du dispositif, y compris l'héparinisation et le pansement";"300";"AMI,SFI";"N";522;523
+"Organisation de la surveillance de la perfusion (ne peuvent être cotés, à l'occasion de cet acte, des frais de déplacement ou des majorations de nuit ou de dimanche) de moins de huit heures";"200";"AMI,SFI";"N";524;525
+"Organisation de la surveillance de la perfusion (ne peuvent être cotés, à l'occasion de cet acte, des frais de déplacement ou des majorations de nuit ou de dimanche) de plus de huit heures";"400";"AMI,SFI";"N";526;527
+
+"Article 4 - Actes du traitement spécifique à domicile d'un patient immunodéprimé ou cancéreux";"";"";"N";529;548
+"Séance d'aérosols à visée prophylactique";"500";"AMI,SFI";"N";530;531
+"Injection intramusculaire ou sous-cutanée";"150";"AMI,SFI";"N";532;533
+"Injection intraveineuse";"250";"AMI,SFI";"N";534;535
+"Injection intraveineuse d'un produit de chimiothérapie anticancéreuse";"700";"AMI,SFI";"N";536;537
+"Forfait pour séance de perfusion intraveineuse courte, d'une durée inférieure ou égale à une heure, sous surveillance continue";"1000";"AMI,SFI";"O";538;539
+"Supplément forfaitaire pour surveillance continue d'une perfusion intraveineuse au-delà de la première heure, par heure (avec un maximum de cinq heures)";"600";"AMI,SFI";"N";540;541
+"Forfait pour séance de perfusion intraveineuse d'une durée supérieure à une heure, y compris le remplissage et la pose de l'infuseur, pompe portable ou pousse-seringue (comportant trois contrôles au maximum)";"1500";"AMI,SFI";"O";542;543
+"Forfait pour l'organisation de la surveillance d'une perfusion, de la planification des soins, y compris la coordination des services de suppléance et le lien avec les services sociaux, à l'exclusion du jour de la pose et de celui du retrait, par jour";"400";"AMI,SFI";"N";544;545
+"Forfait pour arrêt et retrait du dispositif d'une perfusion intraveineuse d'une durée supérieure à vingt-quatre heures, y compris l'héparinisation et le pansement";"500";"AMI,SFI";"N";546;547
+
+"Article 5 - Traitement à domicile d'un patient atteint de mucoviscidose par perfusions d'antibiotiques sous surveillance continue selon le protocole thérapeutique rédigé par un des médecins de l'équipe soignant le patient";"";"";"N";549;552
+"Séance de perfusion intraveineuse d'antibiotiques, quelle que soit la voie d'abord, sous surveillance continue, chez un patient atteint de mucoviscidose, avec un maximum de trois séances par vingt-quatre heures, la séance Cette cotation est globale; elle inclut l'ensemble des gestes nécessaires à la réalisation de l'acte et à la surveillance du patient, ainsi que les autres actes infirmiers éventuels liés au traitement de la mucoviscidose Une feuille de surveillance détaillée permettant le suivi du malade doit être impérativement tenue au domicile du malade.En l'absence de surveillance continue, les cotations habituelles des perfusions s'appliquent en fonction de la voie d'abord.";"1500";"AMI,SFI";"N";550;551
+
+"Article 5bis - Prise en charge à domicile d'un patient insulino-traite";"";"";"N";553;562
+"Surveillance et observation d'un patient diabétique insulino-traité dont l'état nécessite une adaptation régulière des doses d'insuline en fonction des indications de la prescription médicale et du résultat du contrôle extemporané, y compris la tenue d'une fiche de surveillance, par séance";"100";"AMI,SFI";"N";554;555
+"Injection sous-cutanée d'insuline";"100";"AMI,SFI";"N";556;557
+"Séance hebdomadaire de surveillance clinique et de prévention, d'une durée d'une demi-heure, pour un patient insulino-traité de plus de 75 ans";"400";"AMI,SFI";"N";558;559
+"Pansement lourd et complexe pour un patient diabétique insulino-traité, nécessitant des conditions d'asepsie rigoureuses et une détersion avec défibrination";"400";"AMI,SFI";"N";560;561
+
+"Article 6 - Soins portant sur l'appareil digestif et urinaire";"";"";"N";563;572
+"Irrigation colique dans les suites immédiates d'une stomie définitive, incluant le pansement et la surveillance de l'évacuation, avec un maximum de vingt séances, par séance";"400";"AMI,SFI";"N";564;565
+"Dialyse péritonéale, avec un maximum de quatre séances par jour, par séance";"400";"AMI,SFI";"N";566;567
+"Dialyse péritonéale par cycleur : branchement ou débranchement, par séance";"400";"AMI,SFI";"N";568;569
+"Dialyse péritonéale par cycleur : organisation de la surveillance, par période de douze heures";"400";"AMI,SFI";"N";570;571
 
 
-## Chapitre II - Soins spécialisés
-## Article 1 - Soins d'entretien des cathéters
-"Séance d'entretien de cathéter(s) en dehors des perfusions, y compris le pansement : cathéter péritonéal: soins au sérum physiologique et pansement";"400";"AMI,SFI";"N"
-"Séance d'entretien de cathéter(s) en dehors des perfusions, y compris le pansement : cathéter veineux central ou site implantable: héparinisation et pansement";"400";"AMI,SFI";"N"
-"Pansement de cathéter(s) veineux central ou péritonéal sans héparinisation";"300";"AMI,SFI";"N"
+#############################################################
+# ACTES PARTICULIERS
 
-## Article 2 - Injections et prélèvements
-"Injection d'analgésique(s), à l'exclusion de la première par l'intermédiaire d'un cathéter intrathécal ou péridural";"500";"AMI,SFI";"O"
-"Injection intraveineuse par l'intermédiaire d'un site implanté, y compris l'héparinisation et le pansement";"400";"AMI,SFI";"N"
-"Injection intraveineuse par l'intermédiaire d'un cathéter central, y compris l'héparinisation et le pansement";"300";"AMI,SFI";"N"
-"Prélèvement sanguin sur cathéter veineux central extériorisé ou chambre implantable";"100";"AMI,SFI";"N"
+"Actes particuliers";"";"";"N";575;588
+"Majoration d'acte unique";"100";"MAU";"N";576;577
+"Majoration de coordination infirmière";"100";"MCI";"N";578;579
+"Hors nomenclature";"100";"HN";"N";580;581
 
-## Article 3 - Perfusion intraveineuse par l'intermédiaire d'un cathéter veineux central ou d'un site implante
-"Préparation, remplissage, programmation de matériel pour perfusion à domicile, infuseur, pompe portable, pousse-seringue";"300";"AMI,SFI";"N"
-"Branchement de la perfusion et mise en route du dispositif";"400";"AMI,SFI";"N"
-"Changement de flacon(s)";"200";"AMI,SFI";"N"
-"Arrêt et retrait du dispositif, y compris l'héparinisation et le pansement";"300";"AMI,SFI";"N"
-"Organisation de la surveillance de la perfusion (ne peuvent être cotés, à l'occasion de cet acte, des frais de déplacement ou des majorations de nuit ou de dimanche) de moins de huit heures";"200";"AMI,SFI";"N"
-"Organisation de la surveillance de la perfusion (ne peuvent être cotés, à l'occasion de cet acte, des frais de déplacement ou des majorations de nuit ou de dimanche) de plus de huit heures";"400";"AMI,SFI";"N"
-
-## Article 4 - Actes du traitement spécifique à domicile d'un patient immunodéprimé ou cancéreux
-"Séance d'aérosols à visée prophylactique";"500";"AMI,SFI";"N"
-"Injection intramusculaire ou sous-cutanée";"150";"AMI,SFI";"N"
-"Injection intraveineuse";"250";"AMI,SFI";"N"
-"Injection intraveineuse d'un produit de chimiothérapie anticancéreuse";"700";"AMI,SFI";"N"
-"Forfait pour séance de perfusion intraveineuse courte, d'une durée inférieure ou égale à une heure, sous surveillance continue";"1000";"AMI,SFI";"O"
-"Supplément forfaitaire pour surveillance continue d'une perfusion intraveineuse au-delà de la première heure, par heure (avec un maximum de cinq heures)";"600";"AMI,SFI";"N"
-"Forfait pour séance de perfusion intraveineuse d'une durée supérieure à une heure, y compris le remplissage et la pose de l'infuseur, pompe portable ou pousse-seringue (comportant trois contrôles au maximum)";"1500";"AMI,SFI";"O"
-"Forfait pour l'organisation de la surveillance d'une perfusion, de la planification des soins, y compris la coordination des services de suppléance et le lien avec les services sociaux, à l'exclusion du jour de la pose et de celui du retrait, par jour";"400";"AMI,SFI";"N"
-"Forfait pour arrêt et retrait du dispositif d'une perfusion intraveineuse d'une durée supérieure à vingt-quatre heures, y compris l'héparinisation et le pansement";"500";"AMI,SFI";"N"
-
-## Article 5 - Traitement à domicile d'un patient atteint de mucoviscidose par perfusions d'antibiotiques sous surveillance continue selon le protocole thérapeutique rédigé par un des médecins de l'équipe soignant le patient
-"Séance de perfusion intraveineuse d'antibiotiques, quelle que soit la voie d'abord, sous surveillance continue, chez un patient atteint de mucoviscidose, avec un maximum de trois séances par vingt-quatre heures, la séance Cette cotation est globale; elle inclut l'ensemble des gestes nécessaires à la réalisation de l'acte et à la surveillance du patient, ainsi que les autres actes infirmiers éventuels liés au traitement de la mucoviscidose Une feuille de surveillance détaillée permettant le suivi du malade doit être impérativement tenue au domicile du malade.En l'absence de surveillance continue, les cotations habituelles des perfusions s'appliquent en fonction de la voie d'abord.";"1500";"AMI,SFI";"N"
-
-## Article 5bis - Prise en charge à domicile d'un patient insulino-traite
-"Surveillance et observation d'un patient diabétique insulino-traité dont l'état nécessite une adaptation régulière des doses d'insuline en fonction des indications de la prescription médicale et du résultat du contrôle extemporané, y compris la tenue d'une fiche de surveillance, par séance";"100";"AMI,SFI";"N"
-"Injection sous-cutanée d'insuline";"100";"AMI,SFI";"N"
-"Séance hebdomadaire de surveillance clinique et de prévention, d'une durée d'une demi-heure, pour un patient insulino-traité de plus de 75 ans";"400";"AMI,SFI";"N"
-"Pansement lourd et complexe pour un patient diabétique insulino-traité, nécessitant des conditions d'asepsie rigoureuses et une détersion avec défibrination";"400";"AMI,SFI";"N"
-
-## Article 6 - Soins portant sur l'appareil digestif et urinaire
-"Irrigation colique dans les suites immédiates d'une stomie définitive, incluant le pansement et la surveillance de l'évacuation, avec un maximum de vingt séances, par séance";"400";"AMI,SFI";"N"
-"Dialyse péritonéale, avec un maximum de quatre séances par jour, par séance";"400";"AMI,SFI";"N"
-"Dialyse péritonéale par cycleur : branchement ou débranchement, par séance";"400";"AMI,SFI";"N"
-"Dialyse péritonéale par cycleur : organisation de la surveillance, par période de douze heures";"400";"AMI,SFI";"N"
+# ACTE PODOLOGUES POUR DECLENCHER LA LPP
+"Prestation orthèse";"100";"PA";"N";582;583
+"Prestation LPP";"100";"DVO";"N";584;585
+"Complément AT LPP";"100";"ATL";"N";586;587
